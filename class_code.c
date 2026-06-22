@@ -1,42 +1,20 @@
-//?Just start
 
-/**
- #include <stdio.h>   
-int main()          
+#include <stdio.h>
+int main()
 {
-    printf("Hello world!");
-    return 0;       
-}*/
+    int x=25,y,z=50,age;
+    double doshomik = 67.88;
+    double marks;
+    y = 30;
+    printf("Input your age and marks= ");
+    scanf("%d%lf", &age ,&marks);
+    // age = 28-4;
+     age = age-4;
 
-
-/* 
-*/
-
-//?first example(Format Specifiers) 
-
-/* 
-#include <stdio.h>
-int main(){
-    int age =22;
-    float height = 5.8;
-    char grade = 'A';
-    printf("age = %d\n",age);
-    printf("height = %f\n",height);
-    printf("grade = %c\n",grade);
+    printf("My age is = %d\n",age);
+     printf("My marks is = %lf\n",marks);
+    // printf("value of y = %d\nvalue of x = %d\n",y,x);
+    // printf("Now value of x = %d\nValue of doshomik = %0.2lf",x,doshomik);
     return 0;
-
+    
 }
-*/
-
-
-#include <stdio.h>
-
-int main() {
-    int x=25,y=20;
-    int z=x+y;
-    printf("The sum is = %d",z);
-    return 0;
-}
-
-
-
