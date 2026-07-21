@@ -1,5 +1,5 @@
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     int x=25,y,z=50,age;
@@ -17,4 +17,37 @@ int main()
     // printf("Now value of x = %d\nValue of doshomik = %0.2lf",x,doshomik);
     return 0;
     
+} */
+
+
+
+/*
+//!1st practice
+ #include <stdio.h>
+ int main (){
+    printf("hello world");
+    return 0;
+ }
+*/
+
+
+
+//!syntax error
+/*
+#include <stdio.h>
+int main(){
+    //?semicolon missing
+    printf("hello bangladesh")
+    return 0;
 }
+*/
+
+//!Escap sequence concept,,like newline ,tab space 
+#include <stdio.h>
+int main()
+{
+    printf("hi rasel\nhello man");
+    return 0;
+}
+
+/**/
