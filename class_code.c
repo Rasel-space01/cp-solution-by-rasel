@@ -43,6 +43,7 @@ int main(){
 */
 
 //!Escap sequence concept,,like newline ,tab space 
+/*
 #include <stdio.h>
 int main()
 {
@@ -50,4 +51,10 @@ int main()
     return 0;
 }
 
-/**/
+*/
+//!  Data type & variable declaration.
+  #include <stdio.h>
+  int main(){
+    int x=25;
+    return 0;
+  }
