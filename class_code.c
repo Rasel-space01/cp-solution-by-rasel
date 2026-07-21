@@ -53,8 +53,19 @@ int main()
 
 */
 //!  Data type & variable declaration.
-  #include <stdio.h>
+ /*
+ #include <stdio.h>
   int main(){
     int x=25;
     return 0;
   }
+ */
+
+  //! format specifier
+#include <stdio.h>
+int main ()
+{
+    int x= 25;
+    printf(" the value is %d",x);
+    return 0;
+}
