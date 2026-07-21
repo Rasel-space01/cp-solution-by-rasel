@@ -66,6 +66,7 @@ int main()
 int main ()
 {
     int x= 25;
-    printf(" the value is %d",x);
+    int y= 45;
+    printf(" the value x= %d\n the value of y= %d",x,y);
     return 0;
 }
