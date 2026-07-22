@@ -27,9 +27,8 @@ int main(){
 #include <stdio.h>
 int main()
 {
-    char cha;
-    printf("enter english latter:");
-    scanf("%c",&cha);
-    printf(" the latter is:%c\n",cha);
+    char x= 'A';
+    int y = x;
+    printf("value of y= %d\n",y);
     return 0;
 }
