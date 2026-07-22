@@ -65,8 +65,16 @@ int main()
 #include <stdio.h>
 int main ()
 {
-    int x= 25;
-    int y= 45;
-    printf(" the value x= %d\n the value of y= %d",x,y);
+    int x= 25,y= 45,age;
+    double z=50.67,mark;
+    
+    printf(" the value x= %d\n the value of y= %d\n",x,y);
+        printf(" The value x= %lf\n",z);
+                printf(" The value x= %0.2lf\n",z);
+                printf("Input your age and mark =");
+                scanf("%d%lf",&age,&mark);
+                printf("My age is =%d\n my mark is=%lf",age,mark);
+
+
     return 0;
 }
