@@ -34,11 +34,26 @@ int main()
 }*/
 
 //! type-casting
+/*
 #include <stdio.h>
 int main()
 {
     float x= 25.788990;
     int result = (int)x;
     printf("value of:= %d\n",result);
+    return 0;
+}
+*/
+//!practice problem:
+#include <stdio.h>
+int main ()
+{
+    int x,lastDigit;
+    printf(" Enter a number:");
+    scanf("%d",&x);
+    int y=x/10;
+     y=y*10;
+     lastDigit=x-y;
+    printf("last number is: %d",lastDigit);
     return 0;
 }
