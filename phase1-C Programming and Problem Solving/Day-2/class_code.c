@@ -24,11 +24,21 @@ int main(){
 */
 
 //! character  data type
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     char x= 'A';
     int y = x;
     printf("value of y= %d\n",y);
+    return 0;
+}*/
+
+//! type-casting
+#include <stdio.h>
+int main()
+{
+    float x= 25.788990;
+    int result = (int)x;
+    printf("value of:= %d\n",result);
     return 0;
 }
