@@ -73,8 +73,10 @@ int main ()
                 printf(" The value x= %0.2lf\n",z);
                 printf("Input your age and mark =");
                 scanf("%d%lf",&age,&mark);
+                age= age-5;
+                mark= mark+8.5;
                 printf("My age is =%d\n my mark is=%lf",age,mark);
 
 
     return 0;
-}
+} 
