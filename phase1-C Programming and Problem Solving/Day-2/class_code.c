@@ -45,7 +45,7 @@ int main()
 }
 */
 //!practice problem:
-#include <stdio.h>
+/*#include <stdio.h>
 int main ()
 {
     int x,lastDigit;
@@ -56,4 +56,15 @@ int main ()
      lastDigit=x-y;
     printf("last number is: %d",lastDigit);
     return 0;
+}*/
+#include <stdio.h>
+#include <math.h>
+int main ()
+{
+    int a= 5,b=3;
+    int c=pow (5,3);
+
+    printf(" value of c=%d\n",c);
+    return 0;
 }
+
