@@ -33,7 +33,7 @@ int main()
     return 0;
 }*/
 
-//! type-casting
+//! type-casting class-3 start
 /*
 #include <stdio.h>
 int main()
@@ -57,6 +57,8 @@ int main ()
     printf("last number is: %d",lastDigit);
     return 0;
 }*/
+
+/*
 #include <stdio.h>
 #include <math.h>
 int main ()
@@ -68,3 +70,33 @@ int main ()
     return 0;
 }
 
+*/
+
+//! Reminder &result
+/*
+#include <stdio.h>
+int main(){
+    int x=25,y=2;
+    int result, rem;
+    result=x/y;
+    rem=x%y;
+    printf("The result is: %d\n reminder is: %d\n",result,rem);
+    return 0;
+}
+*/
+
+
+//!ceiling find concept
+/*
+
+*/
+
+#include <stdio.h>
+int main (){
+    int a, b;
+    printf("Enter two numbers: ");
+    scanf("%d %d",&a ,&b);
+    int x= (a+b-1)/b;
+    printf("The ceiling is: %d\n",x);
+    return 0;
+}
