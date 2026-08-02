@@ -181,7 +181,35 @@ int main(){
 
  */
 
+//! Make a simple calculator?
 
+#include <stdio.h>
+
+int main(){
+    while(1){
+        int x, y;
+        char c;
+
+        scanf("%d %c %d", &x, &c, &y);
+
+        int result;
+
+        if(c == '+'){
+            result = x+y;
+        }
+        else if(c == '-'){
+            result = x-y;
+        }
+        else if(c == '*'){
+            result = x*y;
+        }
+        else {
+            printf("Unknown operator\n");
+        }
+        printf("%d\n",result);
+    }
+    return 0;
+}
 
 
 
