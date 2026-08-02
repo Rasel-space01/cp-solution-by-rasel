@@ -158,6 +158,7 @@ int main()
 */
 
 //? loop stop with break.
+/*
 #include<stdio.h>
 int main()
 { 
@@ -170,13 +171,64 @@ int main()
             break;
         }
          printf("%d\n",x+1);
-         
+          
        }
        printf("loop Finshed");
        
     return 0;
 }
+*/
 
 
+//? loop  with continue concept.
+
+/*
+#include <stdio.h>
+
+int main(){
+    // Q3, Q7
+    
+    for(int question = 1; question <= 10; question++){
+        
+       
+        if(question == 3 || question == 7){
+            continue; //skip
+        }
+        
+        printf("Answer Question %d\n", question);
+    }
+    
+    printf("Exam finished\n");
+    
+    return 0;
+}
+
+*/
+
+
+
+/*
+#include <stdio.h>
+
+int main(){
+    // Q3, Q7
+    
+    for(int question = 1; question <= 10; question++){
+        
+        printf("Read Question %d\n",question);
+        if(question == 3 || question == 7){
+            continue; //skip
+        }
+        
+        printf("Answer Question %d\n", question);
+    }
+    
+    printf("Exam finished\n");
+    
+    return 0;
+}
+
+
+*/
 
 
