@@ -106,8 +106,8 @@ int main()
     return 0;
 }
  */
-
-
+   
+/*
 #include <stdio.h>
 int main()
 {   int count= 0;
@@ -115,6 +115,21 @@ int main()
        count++;
     }
     printf("%d\n",count);
+    return 0;
+}
+*/
+
+
+//? Input to the user ber ber input dite like 10 ber
+int main()
+{ 
+    for ( int i=0; i<10; i++){  //i=i+1;
+       int x;
+       scanf("%d",&x);
+       x++;
+       printf("%d\n",x);
+
+    }
     return 0;
 }
 
