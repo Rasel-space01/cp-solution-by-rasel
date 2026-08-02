@@ -232,3 +232,111 @@ int main(){
 */
 
 
+/*
+#include <stdio.h>
+
+int main(){
+    for(int i = 1; i <= 20; i++){
+        if(i%2==1){
+            // odd number
+            continue;
+        }
+
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
+*/
+
+
+/*
+#include <stdio.h>
+
+int main(){
+    for(int i = 1; i <= 20; i++){
+        if(i%2!=0){
+            // odd number
+            continue;
+        }
+
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
+*/
+
+//? Now learn do-while loop
+/*
+#include <stdio.h>
+int main()
+{
+    int pin;
+printf("Enter PIN: ");
+
+    scanf("%d", &pin);
+
+    int correct_pin = 1234;
+
+    while(1){
+        if(pin == correct_pin){
+            printf("Login Successful\n");
+            break;
+        }
+
+        printf("Incorrect PIN\n");
+        printf("Enter PIN: ");
+        scanf("%d", &pin);
+    }
+
+    return 0;
+}
+*/
+
+
+//? same but deferent way. but problem is 2 time user thake data newa lagce.
+/*
+#include <stdio.h>
+int main()
+{
+    int pin;
+printf("Enter PIN: ");
+
+    scanf("%d", &pin);
+
+    int correct_pin = 1234;
+
+    while(pin !=correct_pin){
+        printf("Incorrect PIN\n");
+        printf("Enter PIN: ");
+        scanf("%d", &pin);
+    }
+
+    printf(" Login Successful\n");
+    return 0;
+}
+*/
+
+//?Main do - while start.
+/*
+ #include<stdio.h>
+int main(){
+    int pin;
+
+    int correct_pin = 1234;
+
+    do {
+        printf("Enter PIN: ");
+        scanf("%d", &pin);
+    }
+    while(pin != correct_pin); 
+
+    printf("Login Successful\n");
+
+    return 0;
+}
+
+*/
+
+//? Now learn Nested loop.
