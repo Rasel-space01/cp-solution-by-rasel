@@ -1,5 +1,5 @@
 //!Class-6:Introduction to Loops (while, for, nested)
-//?just start
+//!just start in while loop
 /*
 #include <stdio.h>
 int main()
@@ -26,14 +26,29 @@ int main(){
 */ 
 
 
+/*
 #include <stdio.h>
 int main(){
-    int count =0;
-    while(count<10){
+    int count =0;       //?intialization
+    while(count<10){     //? condition
         printf("%d Rasel Ahmed\n",count);
-        count++;
+        count++;    //?update
     }
     printf("count: %d\n",count);
     return 0;
 
 }
+*/
+
+//! just start in for loop
+
+#include <stdio.h>
+int main()
+{
+    for ( int count=0; count<5; count++){
+        printf("%d Ahmed Rasel\n",count);
+    }
+    return 0;
+}
+
+
