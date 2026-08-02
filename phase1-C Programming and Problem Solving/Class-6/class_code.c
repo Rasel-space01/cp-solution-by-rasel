@@ -339,4 +339,70 @@ int main(){
 
 */
 
-//? Now learn Nested loop.
+//? Now learn Nested loop. (loops into the loop).  
+/*
+#include<stdio.h>
+int main(){
+    for(int i = 1; i <= 4; i++){
+        printf("%d -> ", i);
+
+        for(int j = 1; j <= 3; j++){
+            printf("%d ", j);
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}
+*/
+
+
+//?Output:
+/*
+output:
+1 -> 1 2 3 
+2 -> 1 2 3 
+3 -> 1 2 3 
+4 -> 1 2 3 
+*/
+//? Square Shape (**)
+/*
+#include<stdio.h>
+int main(){
+    for(int i = 1; i <= 5; i++){
+       
+        // printf("*****\n");  ( ata k amra nested loop diye joita ta icce * dewa jabe)
+           for( int j =1; j<= 50 ; j++)
+                  {
+                       printf("*");
+                  }
+
+                         printf("\n");
+                          }
+
+    return 0;
+}
+*/
+
+//? Triengle Shape (**)
+/*
+#include<stdio.h>
+int main(){
+    for(int i = 1; i <= 10; i++){
+       
+        // printf("*****\n");  ( ata k amra nested loop diye joita ta icce * dewa jabe)
+           for( int j =1; j<=i ; j++)
+                  {
+                       printf("*");
+                  }
+
+             printf("\n");
+        }
+
+    return 0;
+}
+*/
+
+
+  
