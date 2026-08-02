@@ -140,7 +140,7 @@ int main()
 
 */
 //? input 0 program is stop.
-
+/*
 #include<stdio.h>
 int main()
 { 
@@ -155,5 +155,28 @@ int main()
        
     return 0;
 }
+*/
+
+//? loop stop with break.
+#include<stdio.h>
+int main()
+{ 
+    
+       while (1)
+       {
+        int x;
+        scanf("%d", &x);
+        if(x==0){
+            break;
+        }
+         printf("%d\n",x+1);
+         
+       }
+       printf("loop Finshed");
+       
+    return 0;
+}
+
+
 
 
