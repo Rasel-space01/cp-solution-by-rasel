@@ -182,7 +182,7 @@ int main(){
  */
 
 //! Make a simple calculator?
-
+/*
 #include <stdio.h>
 
 int main(){
@@ -205,13 +205,59 @@ int main(){
         }
         else {
             printf("Unknown operator\n");
+            continue;
         }
         printf("%d\n",result);
     }
     return 0;
 }
+*/
 
+//!number count problem./123 last digit remove ,,integer division.
+/*
+#include <stdio.h>
 
+int main(){
+    int n;
+    scanf("%d", &n);
+    int count =0;
+
+    while(n>0){
+        n /= 10;
+        //printf("%d\n", n);
+        count++;
+    }
+    printf("Total Number is:%d\n",count);
+    return 0;
+}
+*/
+//digit count
+#include <stdio.h>
+
+int main(){
+    int n;
+    scanf("%d", &n);
+    int count =0;
+
+    do{
+        n /= 10;
+        //printf("%d\n", n);
+        count++;
+    }
+    while(n>0);
+    printf("Total Number is:%d\n",count);
+    return 0;
+}
+
+//last digit
+/*
+//?Output:
+2335
+233
+23
+2
+0
+*/
 
 
 
