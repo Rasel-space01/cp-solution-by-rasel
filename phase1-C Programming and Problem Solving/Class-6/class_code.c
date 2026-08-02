@@ -121,6 +121,8 @@ int main()
 
 
 //? Input to the user ber ber input dite like 10 ber
+/*
+#include<stdio.h>
 int main()
 { 
     for ( int i=0; i<10; i++){  //i=i+1;
@@ -130,6 +132,27 @@ int main()
        printf("%d\n",x);
 
     }
+    return 0;
+}
+*/
+
+/*
+
+*/
+//? input 0 program is stop.
+
+#include<stdio.h>
+int main()
+{ 
+       int x;
+       scanf("%d",&x);
+        
+       while (x !=0)
+       {
+         printf("%d\n",x+1);
+         scanf("%d", &x);
+       }
+       
     return 0;
 }
 
