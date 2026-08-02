@@ -215,6 +215,7 @@ int main(){
 
 //!number count problem./123 last digit remove ,,integer division.
 /*
+//digit count
 #include <stdio.h>
 
 int main(){
@@ -231,25 +232,52 @@ int main(){
     return 0;
 }
 */
-//digit count
+
+//last digit
+/*
 #include <stdio.h>
 
 int main(){
     int n;
     scanf("%d", &n);
-    int count =0;
 
-    do{
+    do {
+        int last_digit = n%10;
+
+        printf("%d\n", last_digit);
+
         n /= 10;
-        //printf("%d\n", n);
-        count++;
-    }
-    while(n>0);
-    printf("Total Number is:%d\n",count);
+    } while(n>0);
+
     return 0;
 }
 
-//last digit
+*/
+
+
+//number reverse
+/*
+#include <stdio.h>
+
+int main(){
+    int n;
+    scanf("%d", &n);
+    int reverse_number =0;
+
+    do {
+        int last_digit = n%10;
+         reverse_number *=10;
+         reverse_number +=last_digit;
+        
+
+        n /= 10;
+    } while(n>0);
+    printf("%d\n",reverse_number);
+
+    return 0;
+}
+*/
+
 /*
 //?Output:
 2335
@@ -257,8 +285,71 @@ int main(){
 23
 2
 0
+palindoma;
+abba
+reverse:abba
+202
+reverse: 202
+
+*/
+//! Palindom
+/*
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d", &n);
+
+    int given_number = n;
+
+    int reverse_number = 0;
+
+    do {
+        int last_digit = n%10;
+
+        reverse_number *= 10;
+        reverse_number += last_digit;
+
+        n /= 10;
+    } while(n>0);
+
+    if(reverse_number == given_number){
+        printf("%d is a palindrome\n", given_number);
+    }
+
+    return 0;
+}
 */
 
+
+//! Palindom (1 to 1000) ki na?
+#include<stdio.h>
+int main(){
+    int count =0;
+    for( int i=1;i<=1000; i++){
+    int n=i;
+
+
+    int given_number = n;
+
+    int reverse_number = 0;
+
+    do {
+        int last_digit = n%10;
+
+        reverse_number *= 10;
+        reverse_number += last_digit;
+
+        n /= 10;
+    } while(n>0);
+
+    if(reverse_number == given_number){
+        printf("%d is a palindrome\n", given_number);
+        count++;
+    }
+}
+printf("Total palindom number %d\n", count);
+    return 0;
+}
 
 
 
