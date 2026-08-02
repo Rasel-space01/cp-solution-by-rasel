@@ -82,6 +82,8 @@ int main()
 
 
 //? 1 to 100 odd(bijur sonkha) number print
+
+/*
 #include <stdio.h>
 int main()
 {
@@ -91,3 +93,29 @@ int main()
     printf("loop Finished");
     return 0;
 }
+*/
+
+ /*
+ #include <stdio.h>
+int main()
+{   int count= 0;
+    for ( int i=0; i<=10; i++){  //i=i+1;
+       count++;
+    }
+    printf("%d\n",count);
+    return 0;
+}
+ */
+
+
+#include <stdio.h>
+int main()
+{   int count= 0;
+    for ( int i=0; i<=10; i+=4){  //i=i+1;
+       count++;
+    }
+    printf("%d\n",count);
+    return 0;
+}
+
+
