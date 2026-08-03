@@ -269,4 +269,85 @@ int main()
   
    */
    
+   //! একটি অ্যারের প্রথম উপাদানটিকে সর্বোচ্চ ও সর্বনিম্ন ধরে নিয়ে, লুপের মাধ্যমে বাকি সব উপাদানের সাথে তুলনা করে সবচেয়ে বড় ও সবচেয়ে ছোট সংখ্যাটি বের করার প্রোগ্রাম এটি।
+  
+   /*
+   #include <stdio.h>
+
+   int main()
+   {
+    int sz;
+    scanf("%d", &sz);
+
+    int students[sz];
+
+    for(int i = 0; i < sz; ++i)
+    {
+        scanf("%d", &students[i]);
+    }
+     int maximum = students[0];
+     int minimum = students[0];
    
+
+    for(int i=1; i<sz; ++i)
+    {
+    if(maximum<students[i])
+    {
+        maximum = students[i];
+    }
+    if(minimum>students[i])
+    {
+        minimum = students[i];
+    }
+  }
+
+   printf("maximum = %d\n",maximum);
+   printf("minimum = %d\n",minimum);
+     
+    return 0;
+   }
+
+
+   */
+//! Find maximum number index number.
+
+   #include <stdio.h>
+
+   int main()
+   {
+    int sz;
+    scanf("%d", &sz);
+
+    int students[sz];
+
+    for(int i = 0; i < sz; ++i)
+    {
+        scanf("%d", &students[i]);
+    }
+     int maximum = students[0];
+     int mxidx =1;
+     int minimum = students[0];
+   
+
+    for(int i=0; i<sz; ++i)
+    {
+        if ( students[mxidx] <students[i]){
+           mxidx =i;
+        }
+    if(maximum<students[i])
+    {
+        maximum = students[i];
+    }
+    if(minimum>students[i])
+    {
+        minimum = students[i];
+    }
+  }
+
+   printf("maximum = %d\n",maximum);
+    printf("mxindex = %d\n",mxidx);;
+   printf("minimum = %d\n",minimum);
+     
+    return 0;
+   }
+
