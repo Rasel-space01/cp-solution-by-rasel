@@ -128,7 +128,7 @@ int main()
 //! arr1 to arr2 into the reverse order.
 //?(একটি অ্যারেতে কিছু উপাদান ইনপুট নিয়ে, মূল অ্যারের মানগুলো পরিবর্তন না করে সম্পূর্ণ উল্টো (Reverse) ক্রমে অন্য একটি অ্যারেতে সংরক্ষণ করা এবং তা আউটপুট হিসেবে দেখানো।)
 
-
+/*
 #include <stdio.h>
 int main()
 {
@@ -159,8 +159,11 @@ int main()
    }
 
 
+*/
+
 
 //!" অতিরিক্ত কোনো অ্যারে (Extra Space) ছাড়া Two-Pointer ও Swap ব্যবহার করে একটি অ্যারে ইন-প্লেস (In-Place) রিভার্স করা।"
+   /*
    #include <stdio.h>
 
    int main()
@@ -196,4 +199,74 @@ int main()
 
     return 0;
    }
+   */
   
+
+   //!" একটি অ্যারের সব উপাদান (Elements) লুপের মাধ্যমে এক এক করে যোগ করে মোট যোগফল (Sum) বের করা।
+   
+   /*
+   #include <stdio.h>
+
+   int main()
+   {
+    int sz;
+    scanf("%d", &sz);
+
+    int students[sz];
+
+    for(int i = 0; i < sz; ++i)
+    {
+        scanf("%d", &students[i]);
+    }
+
+    int sum = 0;
+
+    for(int i=0; i<sz; ++i)
+    {
+    sum += students[i];
+   }
+
+   printf("sum = %d\n",sum);
+    return 0;
+   }
+   */
+   
+   //! Sum of Even and Odd Indexed Elements in an Array (অ্যারের জোড় ও বিজোড় ইনডেক্সের উপাদানগুলোর আলাদা যোগফল নির্ণয়)
+   /*
+    #include <stdio.h>
+
+   int main()
+   {
+    int sz;
+    scanf("%d", &sz);
+
+    int students[sz];
+
+    for(int i = 0; i < sz; ++i)
+    {
+        scanf("%d", &students[i]);
+    }
+
+    int evensum = 0;
+    int oddsum = 0;
+
+    for(int i=0; i<sz; ++i)
+   {
+    if(i%2 == 0)//even
+    {
+        evensum += students[i];
+    }
+    else //odd
+    {
+        oddsum += students[i];
+    }
+   }
+
+   printf("evensum = %d\n",evensum);
+   printf("oddsum = %d\n",oddsum);
+    return 0;
+   }
+  
+   */
+   
+   
