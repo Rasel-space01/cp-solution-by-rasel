@@ -310,8 +310,8 @@ int main()
 
    */
 //! Find maximum number index number.
-
-   #include <stdio.h>
+/*
+ #include <stdio.h>
 
    int main()
    {
@@ -351,3 +351,33 @@ int main()
     return 0;
    }
 
+*/
+  
+//! Problem: https://atcoder.jp/contests/abc284/tasks/abc284_b
+
+#include<stdio.h>
+int main(){
+    int T;
+    scanf("%d",&T);
+    while(T--)
+    {
+    int n; scanf("%d",&n);
+    int arr[n];
+    for(int i=0; i<n; ++i)
+    {
+        scanf("%d",&arr[i]);
+    }
+
+    int odd = 0;
+
+    for(int i=0; i<n; ++i)
+    {
+        if(arr[i]%2) //ODD
+        {
+            odd += 1;
+        }
+    }
+
+    printf("%d\n",odd);
+   }
+}
