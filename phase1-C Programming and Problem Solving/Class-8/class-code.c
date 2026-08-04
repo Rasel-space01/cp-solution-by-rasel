@@ -388,11 +388,138 @@ int main(){
 
 //! 1st practice.
 
+/*
+#include<stdio.h>
+int main()
+{   // ( It,s more practical)
+    char str[5] ="abcde"; 
+            //Or
+     //char* str = "sf";       
+
+     printf("%s\n",str); 
+     
+      return 0;
+}
+
+*/
+
+
+//! 2nd practice problem.
+/*
 #include<stdio.h>
 int main()
 {
-    char str[5] ="abcde";
-     printf("%s\n",str);
+    char str[50] ="ab"; 
+            
+     
+      printf("%c\n",str[3]); // %c means char akta array
+      return 0;
+}
+*/
 
+//! 3rd practice problem.
+
+/*
+#include<stdio.h>
+int main()
+{
+    char str[5] ="ab"; 
+            
+     //printf("%s\n",str);
+      printf("%s\n",str[3]);// 3 no index null print korbe
+      return 0;
 }
 
+*/
+
+
+//! 4th practice problem.
+
+/*
+#include <stdio.h>
+
+int main()
+{
+    char str[5]; //{'a','b','c','d','e'
+    // printf("%c\n", str[3]);
+    str[0] = 'a';
+    str[1] = 'b';
+    str[2] = '\0';
+    str [3]= 'c';
+    str [4]= 'd';//still ab print korbe.
+
+    printf("%s\n", str);
+}
+*/
+
+//! 5th practice problem( User to get input for string)
+ 
+/*
+#include <stdio.h>
+
+int main()
+{
+    // int a = 10+5;
+     
+    char str[5];
+    for(int i=0; i<5; ++i)
+    {
+        char c;
+        scanf("%c",&c);
+        if(c=='\n')
+        {
+            str[i] = '\0';
+            break;
+        }
+        str[i] = c;
+    }
+
+    printf("%s\n", str);
+}
+
+*/
+
+
+//? Other way .
+
+/*
+#include <stdio.h>
+
+int main()
+{
+    // int a = 10+5;
+    char str[5];
+    // scanf("%s", str);
+    gets(str);// all input take include space 
+    //fgets(str,5,stdin);
+    // puts(str);  (extra new line print)
+    printf("%s\n", str);
+}
+
+*/
+
+
+
+//! Length of string
+#include <stdio.h>
+
+int main()
+{
+    char str[12];
+    // scanf("%s",str);
+    gets(str);
+    // fgets(str,5,stdin);
+
+    int len = 0;
+    for(int i=0; i<12; ++i)
+    {
+        if(str[i]=='\0')
+        {
+            break;
+        }
+        else len++;
+    }
+
+    printf("size of the string = %d\n",len);
+
+}
