@@ -501,6 +501,7 @@ int main()
 
 
 //! Length of string
+/*
 #include <stdio.h>
 
 int main()
@@ -523,3 +524,78 @@ int main()
     printf("size of the string = %d\n",len);
 
 }
+*/
+//? Another way to example.
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char str[12];
+    // scanf("%s",str);
+    gets(str);
+    // fgets(str,5,stdin);
+
+    int len = strlen(str);// need a header file
+
+    printf("size of the string = %d\n",len);
+
+}
+*/
+
+
+//? 1st bolei diyece 5 length (abcde) string.
+
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    int sz;
+    scanf("%d",&sz);
+    //ekhane extra new line
+    char c; //new line ta ei variable e nibo
+    //char onnobabe o input newa jai
+    //c=getchar();
+    scanf("%c",&c);
+
+   
+//    if(c=='\n')
+//    {
+//     printf("newline\n");
+//    }
+   
+
+  char str[sz+1];
+  char str2[sz+1];
+
+  gets(str);
+  gets(str2);
+
+  puts(str);
+  puts(str2);
+ 
+
+}
+*/
+
+//!ASCII and ascii table
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char c = 'd';
+    c += 1;
+    //int n=c;
+    printf("%c\n",c);
+    return 0;
+}
+
+
+
+
+ 
