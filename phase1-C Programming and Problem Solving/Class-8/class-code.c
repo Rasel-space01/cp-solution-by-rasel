@@ -355,7 +355,8 @@ int main()
   
 //! Problem: https://atcoder.jp/contests/abc284/tasks/abc284_b
 
-#include<stdio.h>
+/*
+ #include<stdio.h>
 int main(){
     int T;
     scanf("%d",&T);
@@ -381,3 +382,17 @@ int main(){
     printf("%d\n",odd);
    }
 }
+*/
+
+//?✌***************** String *******************✌?//
+
+//! 1st practice.
+
+#include<stdio.h>
+int main()
+{
+    char str[5] ="abcde";
+     printf("%s\n",str);
+
+}
+
