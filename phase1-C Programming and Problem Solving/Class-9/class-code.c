@@ -185,8 +185,201 @@ int main()
 }
 */
 
-//! Problem-5: https://atcoder.jp/contests/abc294/tasks/abc294_b
 
+//! 2D array practice.
 /*
+#include<stdio.h>
+
+int main()
+{
+    int arr2d[3][4] = { {1, 2, 3, 4},
+                        {5, 6, 7, 8},
+                        {9,10,11,12}
+                      };
+
+    //arr[row][col]
+    printf("%d\n",arr2d[1][1]);
+}
 
 */
+
+//? 2d array user to input.
+/*
+#include<stdio.h>
+
+int main()
+{
+    int arr2d[3][4];// = { {1, 2, 3, 4},
+                     //   {5, 6, 7, 8},
+                     //   {9,10,11,12}
+                     // };
+
+    //arr[row][col]
+
+    for(int row=0; row<3; ++row)
+    {
+        for(int col=0; col<4; ++col)
+        {
+            scanf("%d",&arr2d[row][col]);
+        }
+    }
+
+    for(int row=0; row<3; ++row)
+    {
+        for(int col=0; col<4; ++col)
+        {
+            printf("%d ",arr2d[row][col]);
+        }
+        printf("\n");
+    }
+}
+
+
+*/
+
+//? Another way to take input
+
+/*
+#include<stdio.h>
+
+int main()
+{
+    int r,c;
+    scanf("%d %d",&r, &c);
+    int arr2d[r][c];// = { {1, 2, 3, 4},
+                    //   {5, 6, 7, 8},
+                    //   {9,10,11,12}
+                    // };
+
+    //arr[row][col]
+
+    for(int row=0; row<r; ++row)
+    {
+        for(int col=0; col<c; ++col)
+        {
+            scanf("%d",&arr2d[row][col]);
+        }
+    }
+
+    for(int row=0; row<r; ++row)
+    {
+        for(int col=0; col<c; ++col)
+        {
+            printf("%d ",arr2d[row][col]);
+        }
+    }
+}
+
+*/
+
+//! Problem-5 (2d array): https://atcoder.jp/contests/abc294/tasks/abc294_b
+/*
+#include<stdio.h>
+int main()
+{
+    {
+    int H,W;
+    scanf("%d %d",&H, &W);
+    int arr2d[H][W];
+
+    for(int row=0; row<H; ++row)
+    {
+        for(int col=0; col<W; ++col)
+        {
+            scanf("%d",&arr2d[row][col]);
+        }
+    }
+
+    char alpha[27] = {'.','A','B','C','D','E','F','G','H','I','J','K','L',
+    'M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
+
+    for(int row=0; row<H; ++row)
+    {
+        for(int col=0; col<W; ++col)
+        {
+            // if(arr2d[row][col]==0) print .
+            int n = arr2d[row][col];
+            printf("%c",alpha[n]);
+        }
+        printf("\n");
+    }
+}
+}
+*/
+
+//?Another way to solve.
+
+/*
+#include <stdio.h>
+
+int main()
+{
+    int H, W;
+    scanf("%d %d", &H, &W);
+    int arr2d[H][W];
+
+    for(int row = 0; row < H; ++row)
+    {
+        for(int col = 0; col < W; ++col)
+        {
+            scanf("%d", &arr2d[row][col]);
+        }
+    }
+
+    for(int row = 0; row < H; ++row)
+    {
+        for(int col = 0; col < W; ++col)
+        {
+            int n = arr2d[row][col];
+            if(n == 0)
+            {
+                printf(".");
+            }
+            else
+            {
+                printf("%c", n + 64);
+            }
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+
+*/
+//! Problem-6 : https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/W
+#include<stdio.h>
+
+int main()
+{
+    int r,c;
+    scanf("%d %d",&r, &c);
+    int arr2d[r][c];// = { {1, 2, 3, 4},
+                    //   {5, 6, 7, 8},
+                    //   {9,10,11,12}
+                    // };
+
+    //arr[row][col]
+
+    for(int row=0; row<r; ++row)
+    {
+        for(int col=0; col<c; ++col)
+        {
+            scanf("%d",&arr2d[row][col]);
+        }
+    }
+
+    for(int row=0; row<r; ++row)
+    {
+        for(int col=c-1; col>=0; --col)
+        {
+            printf("%d ",arr2d[row][col]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+
