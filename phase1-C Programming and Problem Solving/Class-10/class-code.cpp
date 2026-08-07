@@ -43,19 +43,20 @@ int main(){
 
 */
 
-//! we self using make funtion
+//! we self using make funtion (myPow)
 
-
+/*
 #include<bits/stdc++.h>
 using namespace std;
 //self made funtion
-long long myPow (int n, int p){
+long long myPow (int n, int p){ // input means perameter.
     long long output =1;
     for(int i =1; i<=p;i++){
        output =output*n;
     }
-   return output;
+   return output;// user k return kore.
 }
+
 int main(){
 
     int  a,b;
@@ -64,6 +65,49 @@ int main(){
     cout << "value of x = "<< x << endl;
     return 0;
 }
+*/
+
+
+//! Self using make funtion (ceil)
+
+/*
+  #include<bits/stdc++.h>
+using namespace std;
+
+int ceil ( int a, int b ){
+    return (a+b-1)/b;
+}
+int main(){
+
+    int  a,b;
+    cin>> a>>b;
+    //int x=ceil(a,b);
+   // cout << "value of x = "<< x << endl;
+     cout << ceil(a,b) << endl;
+    return 0;
+}
+
+
+*/
+
+//! Self using make funtion (massage showing funtion).
+/*
+#include<bits/stdc++.h>
+using namespace std;
+
+void printHelloMessage() {
+    cout << "Hello! This is CPS Academy" << endl << "Wellcome to our bootcamp" << endl;
+}
+int main () {
+    printHelloMessage();
+
+    return 0;
+}
+
+*/
+
+//! Built in funtion .
+
 
 
 
