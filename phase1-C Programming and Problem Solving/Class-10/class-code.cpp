@@ -30,7 +30,7 @@ int main(){
 
 
 //! scanf (cin) data from get to user.
-
+/*
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -41,7 +41,29 @@ int main(){
     return 0;
 }
 
+*/
 
+//! we self using make funtion
+
+
+#include<bits/stdc++.h>
+using namespace std;
+//self made funtion
+long long myPow (int n, int p){
+    long long output =1;
+    for(int i =1; i<=p;i++){
+       output =output*n;
+    }
+   return output;
+}
+int main(){
+
+    int  a,b;
+    cin>> a>>b;
+    int x=myPow(a,b);
+    cout << "value of x = "<< x << endl;
+    return 0;
+}
 
 
 
