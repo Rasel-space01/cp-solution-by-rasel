@@ -106,11 +106,13 @@ int main () {
 
 */
 
-//! Built in funtion .
+//!✅ Built in funtion✌.
+
 #include<bits/stdc++.h>
 using namespace std;
 int main () {
-     cout << min(5.7,5.3) << endl;
+     //5.7, 5.3,6.2,8.9
+     cout << min (min(6.7,5.3),min(6.2,8.9)) << endl;
     //cout << max(5.7,5.3) << endl;
     return 0;
 }
