@@ -110,7 +110,8 @@ int main () {
 #include<bits/stdc++.h>
 using namespace std;
 int main () {
-    cout << max(5.7,5.3) << endl;
+     cout << min(5.7,5.3) << endl;
+    //cout << max(5.7,5.3) << endl;
     return 0;
 }
 
