@@ -1,8 +1,47 @@
 //! Class-10: Introduction to Functions and Build in Functions
-//#include <stdio.h>
+
+
+//! first program in c++.
+
+/*
+
+//*#include <stdio.h>
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    
+    int  x= pow(2,3);
+    int y= 5;
+    double z=5.7;
+    double a = 34.56768;
+
+    cout << fixed << setprecision (3) ;
+    cout <<"value of z :" << z << endl;
+        cout <<"value of A :" << a << endl;
+
+    //printf(" value of x=%d\n",x);  // printf er replace inn c++ (cout)
+    cout << x <<"" << y << endl;
+    cout <<"value of x= "<< x << endl;
+    return 0;
 }
+
+
+*/
+
+
+
+//! scanf (cin) data from get to user.
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int  a,b;
+    cin>> a>>b;
+    int x=pow(a,b);
+    cout << "value of x = "<< x << endl;
+    return 0;
+}
+
+
+
+
 
