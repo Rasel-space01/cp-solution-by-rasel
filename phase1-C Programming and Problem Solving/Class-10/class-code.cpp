@@ -107,6 +107,12 @@ int main () {
 */
 
 //! Built in funtion .
+#include<bits/stdc++.h>
+using namespace std;
+int main () {
+    cout << max(5.7,5.3) << endl;
+    return 0;
+}
 
 
 
