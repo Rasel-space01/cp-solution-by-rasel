@@ -108,14 +108,30 @@ int main () {
 
 //!✅ Built in funtion✌.
 
-#include<bits/stdc++.h>
+//?Min/Max
+/*
+ #include<bits/stdc++.h>
 using namespace std;
 int main () {
      //5.7, 5.3,6.2,8.9
-     cout << min (min(6.7,5.3),min(6.2,8.9)) << endl;
+     //cout << min (min(6.7,5.3),min(6.2,8.9)) << endl;
+     cout << min( {6.7,5.3,6.2,8.9})<< endl;
+
     //cout << max(5.7,5.3) << endl;
     return 0;
 }
+
+*/
+
+//?Reverse funtion.
+#include<bits/stdc++.h>
+using namespace std;
+int main () {
+    
+     return 0;
+}
+
+
 
 
 
