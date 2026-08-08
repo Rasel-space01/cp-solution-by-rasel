@@ -124,20 +124,38 @@ int main () {
 */
 
 //?Reverse funtion.
+/*
 #include<bits/stdc++.h>
 using namespace std;
 int main () {
      int ara[5]={1,2,3,4,5};
      for(int i=0;i<5;i++) cout << ara[i]<< "";
      cout<< endl;
-     reverse (ara,ara+5);
+     reverse(ara+1, ara+4);
+     //reverse (ara,ara+5);
      cout<<"==== After reversal" << endl;
      for(int i=0; i<5; i++) cout << ara[i] << "";
      cout << endl;
      return 0;
 }
+*/
 
+//?Sort funtion
 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main () {
+    int ara[11] = {5, 6, 5, 2, 1, 9, 0, -1, 100};
+    for (int i = 0; i < 5; i++) cout << ara[i] << " ";
+    cout << endl;
+
+    sort(ara, ara + 9);
+    cout << "===== After sorting " << endl;
+    for (int i = 0; i < 9; i++) cout << ara[i] << " ";
+    cout << endl;
+    return 0;
+}
 
 
 
