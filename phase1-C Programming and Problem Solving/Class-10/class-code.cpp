@@ -177,12 +177,28 @@ int main () {
 */
 
 //?Max_element  built in funtion.
+/*
 #include <bits/stdc++.h>
 using namespace std;
 
 int main () {
     int ara[5] = {5, 6, 5, 2, 1};
     int maxValue = *max_element(ara, ara + 5);
+    cout << "Maximum Value = " << maxValue << endl;
+    return 0;
+}
+*/
+
+//?Min_element  built in funtion.
+/*
+
+*/
+#include <bits/stdc++.h>
+using namespace std;
+
+int main () {
+    int ara[5] = {5, 6, 5, 2, 1};
+    int maxValue = *min_element(ara, ara + 5);
     cout << "Maximum Value = " << maxValue << endl;
     return 0;
 }
