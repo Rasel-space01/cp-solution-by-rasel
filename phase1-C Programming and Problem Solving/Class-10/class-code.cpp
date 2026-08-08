@@ -142,6 +142,7 @@ int main () {
 
 //?Sort funtion
 
+/*
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -154,6 +155,21 @@ int main () {
     cout << "===== After sorting " << endl;
     for (int i = 0; i < 9; i++) cout << ara[i] << " ";
     cout << endl;
+    return 0;
+}
+
+*/
+
+//? swap built in funtion.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main () {
+    int ara[5] = {5, 6, 5, 2, 1};
+//  for (int i = 0; i < 5; i++) cout << ara[i] << " ";
+    int x = 10, y = 5;
+    swap(x, y);
+    cout << " value of x = " << x << " Value of y = " << y << endl;
     return 0;
 }
 
