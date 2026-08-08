@@ -149,8 +149,8 @@ int main () {
     int ara[11] = {5, 6, 5, 2, 1, 9, 0, -1, 100};
     for (int i = 0; i < 5; i++) cout << ara[i] << " ";
     cout << endl;
-
-    sort(ara, ara + 9);
+    sort(ara +4, ara + 8);
+    //sort(ara, ara + 9);
     cout << "===== After sorting " << endl;
     for (int i = 0; i < 9; i++) cout << ara[i] << " ";
     cout << endl;
