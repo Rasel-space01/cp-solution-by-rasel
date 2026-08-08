@@ -214,4 +214,16 @@ int main () {
     return 0;
 }
 
+//! Problem-1: https://atcoder.jp/contests/abc207/tasks/abc207_a?lang=en
+//! Problem-2:https://atcoder.jp/contests/abc313/tasks/abc313_a?lang=en
+//! Problem-3:https://atcoder.jp/contests/abc312/tasks/abc312_a?lang=en
+//! Problem-4:https://atcoder.jp/contests/abc295/tasks/abc295_a?lang=en
+//! Problem-5:https://cses.fi/problemset/task/1621
+//! Problem-6:https://codeforces.com/problemset/problem/405/A
+//! Problem-7:https://codeforces.com/problemset/problem/144/A
+//! Problem-7:https://codeforces.com/problemset/problem/339/A
+//! Problem-7:https://atcoder.jp/contests/abc150/tasks/abc150_c?lang=en
+//! Problem-8: https://atcoder.jp/contests/abc293/tasks/abc293_a?lang=en
+
+
 
