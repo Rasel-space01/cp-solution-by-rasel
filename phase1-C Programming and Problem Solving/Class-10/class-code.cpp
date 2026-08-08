@@ -161,6 +161,7 @@ int main () {
 */
 
 //? swap built in funtion.
+/*
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -173,6 +174,17 @@ int main () {
     return 0;
 }
 
+*/
 
+//?Max_element  built in funtion.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main () {
+    int ara[5] = {5, 6, 5, 2, 1};
+    int maxValue = *max_element(ara, ara + 5);
+    cout << "Maximum Value = " << maxValue << endl;
+    return 0;
+}
 
 
