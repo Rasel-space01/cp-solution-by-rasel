@@ -127,7 +127,13 @@ int main () {
 #include<bits/stdc++.h>
 using namespace std;
 int main () {
-    
+     int ara[5]={1,2,3,4,5};
+     for(int i=0;i<5;i++) cout << ara[i]<< "";
+     cout<< endl;
+     reverse (ara,ara+5);
+     cout<<"==== After reversal" << endl;
+     for(int i=0; i<5; i++) cout << ara[i] << "";
+     cout << endl;
      return 0;
 }
 
