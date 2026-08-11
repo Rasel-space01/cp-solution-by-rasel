@@ -169,5 +169,44 @@ printf("Your age is %d\n", age);
 return 0;
 }
 
+*/
+
+//? Same time 3 input .
+
+/*
+#include <stdio.h>
+int main() {
+int roll;
+float marks;
+char grade;
+printf("Enter roll, marks and grade: ");
+scanf("%d  %f %c", &roll, &marks, &grade);
+printf("Roll: %d\n", roll);
+printf("Marks: %.2f\n", marks);
+printf("Grade: %c\n", grade);
+return 0;
+}
 
 */
+//? %c before the must be space.
+/*
+#include <stdio.h>
+int main() {
+int roll;
+char grade;
+printf("Enter roll: ");
+scanf("%d", &roll);
+printf("Enter grade: ");
+scanf(" %c", &grade);//space is mater
+
+printf("Roll: %d, Grade: %c\n", roll, grade);
+return 0;
+}
+*/
+
+//! Type Casting.
+
+//? 1) Implicit 2) Explicit 
+
+
+
