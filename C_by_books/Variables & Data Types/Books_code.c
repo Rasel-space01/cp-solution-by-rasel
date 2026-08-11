@@ -114,7 +114,8 @@ int main()
 
 
 //? Variable এর মান change kora.
-#include <stdio.h>
+/*
+ #include <stdio.h>
 int main()
  {
   int age = 25;
@@ -125,3 +126,48 @@ int main()
   printf("After 10 years: %d\n", age); 
   return 0;
 }
+*/
+
+//? Full code practice  on variable and data type.
+/*
+#include <stdio.h>
+int main()
+{
+    int age =30;
+    long long population= 8000000000;
+    float height = 5.6;
+    double pi= 3.14159265;
+    char  grade = 'A';
+    printf("=====My information int below====\n");
+    printf(" The age is : %d \n The height is : %0.1f\n The grade is : %c\n ",age,height,grade);
+    printf("world population:%lld\n",population);
+    printf(" PI: %.8lf\n",pi);
+    // variable change
+    age =21;
+    printf(" After birthday,age:%d years\n",age);
+
+    //calculate kora
+    int num1= 40;
+    int num2 =60;
+    int sum = num1+num2;
+    printf(" sum of %d and %d is %d\n",num1, num2, sum);
+
+    return 0;
+
+}
+
+*/
+
+//!  scanf — User Input.
+/*
+#include <stdio.h>
+int main() {
+int age;
+printf("Enter your age: ");
+scanf("%d", &age);
+printf("Your age is %d\n", age);
+return 0;
+}
+
+
+*/
