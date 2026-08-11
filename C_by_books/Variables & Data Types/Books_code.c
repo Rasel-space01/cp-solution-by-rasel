@@ -99,11 +99,29 @@ int main() {
 }
 */
 //? Format specifier আর variable এর order always match korte hobe.
-#include<stdio.h>
-int main() {
+
+/*
+  #include<stdio.h>
+int main()
+ {
     int age = 25;
     int marks = 95;
     int roll = 101;
     printf("Age: %d, Marks: %d, Roll: %d", age, marks, roll);
     return 0;
+}
+*/
+
+
+//? Variable এর মান change kora.
+#include <stdio.h>
+int main()
+ {
+  int age = 25;
+  printf("Current age: %d\n", age); 
+  age = 30; 
+  printf("After 5 years: %d\n", age); 
+  age = 35; 
+  printf("After 10 years: %d\n", age); 
+  return 0;
 }
