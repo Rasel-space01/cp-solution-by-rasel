@@ -173,9 +173,10 @@ int main() {
  }
 */
 //?Subtraction assignment.
+/*
  #include <stdio.h>
 
-int main() {
+ int main() {
     int balance = 1000;  
     printf("Initial balance: %d\n", balance);
 
@@ -189,7 +190,23 @@ int main() {
 
     return 0;
 }
+*/
+ 
 //?Multiplication Assignment.
+ #include <stdio.h>
+
+int main() {
+    int num = 2;
+    printf("Initial: %d\n", num);
+
+    num *= 3;  // 2 * 3 = 6
+    printf("After num *= 3: %d\n", num);
+
+    num *= 4;  // 6 * 4 = 24
+    printf("After num *= 4: %d\n", num);
+
+    return 0;
+}
 //?Division Assignment.
 //?Modulus Assignment.
 
