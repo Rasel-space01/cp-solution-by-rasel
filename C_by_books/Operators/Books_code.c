@@ -162,7 +162,8 @@ int main() {
 
 //! Assignment Operators.
 //? Addition assignment
- #include <stdio.h>
+/*
+#include <stdio.h>
  int main(){
     int a=10;
     printf("Initial : a = %d\n",a);
@@ -170,10 +171,29 @@ int main() {
     printf("Final output: %d\n",a);
     return 0;
  }
+*/
+//?Subtraction assignment.
+ #include <stdio.h>
 
+int main() {
+    int balance = 1000;  
+    printf("Initial balance: %d\n", balance);
 
+    balance -= 250;  //a=a-250
+    printf("After withdrawing 250: %d\n", balance);
 
+    balance -= 175; 
+    printf("After withdrawing 175: %d\n", balance);
 
+    printf("\nRemaining balance: %d\n", balance);
+
+    return 0;
+}
+//?Multiplication Assignment.
+//?Division Assignment.
+//?Modulus Assignment.
+
+ 
 //! Relational Operators.
 //! Logical Operators.
 //! Bitwise Operators.
