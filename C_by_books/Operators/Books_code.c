@@ -193,7 +193,8 @@ int main() {
 */
  
 //?Multiplication Assignment.
- #include <stdio.h>
+/*
+#include <stdio.h>
 
 int main() {
     int num = 2;
@@ -207,8 +208,34 @@ int main() {
 
     return 0;
 }
+*/
+ 
 //?Division Assignment.
+/*
+#include <stdio.h>
+
+int main() {
+    int num = 100;
+    printf("Initial: %d\n", num);
+
+    num /= 2;  // 100 / 2 = 50
+    printf("After num /= 2: %d\n", num);
+
+    num /= 5;  // 50 / 5 = 10
+    printf("After num /= 5: %d\n", num);
+
+    return 0;
+}
+*/
 //?Modulus Assignment.
+#include<stdio.h>
+int main(){
+    int num=17;
+    printf("The number is: %d\n",num);
+    num %=5;
+    printf("The final result is: %d",num);
+    return 0;
+}
 
  
 //! Relational Operators.
