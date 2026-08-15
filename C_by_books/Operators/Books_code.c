@@ -161,6 +161,18 @@ int main() {
 
 
 //! Assignment Operators.
+//? Addition assignment
+ #include <stdio.h>
+ int main(){
+    int a=10;
+    printf("Initial : a = %d\n",a);
+    a+=5; //a=a+5
+    printf("Final output: %d\n",a);
+    return 0;
+ }
+
+
+
 
 //! Relational Operators.
 //! Logical Operators.
