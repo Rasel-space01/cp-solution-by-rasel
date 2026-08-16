@@ -279,7 +279,8 @@ int main() {
 
 //? Decrement Operator(--).
 
-#include <stdio.h>
+/*
+ #include <stdio.h>
 
 int main() {
     int countdown = 5;
@@ -305,12 +306,91 @@ int main() {
 
     return 0;
 }
+*/
 
+
+//counter = counter - 1; // লম্বা উপায় .
+//counter -= 1;// Compound Assignment .
+//counter--;// Decrement Operator (সবিচেয় ছোট!) .
+
+//? Postfix vs Prefix .
+
+// a++; // Postfix — ++ পরে
+
+// ++a; // Prefix — ++ আগে
+
+//Postfix (a++) — “আগে use করো, পরে বাড়াও”
+
+/*
+#include<stdio.h>
+int main()
+{
+ int a=5;
+ int b=a++;  //Postfix.
+ printf("a=%d\n",a);
+ printf("b=%d\n",b);
+ return 0;
+}
+
+*/
+
+//Postfix (a++) — “আগে use করো, পরে বাড়াও”
+/*
+ #include <stdio.h>
+   int main() {
+   int a = 5;
+   int b = ++a; // Prefix
+   printf("a = %d\n", a);
+   printf("b = %d\n", b);
+   return 0;
+}
+*/
 
 //! Relational Operators.
+//? == Equal to.
+
+/*
+ #include <stdio.h>
+    int main() {
+    int result1 = (5 == 5);
+    int result2 = (5 == 3);
+    printf("5 == 5: %d\n", result1);
+    printf("5 == 3: %d\n", result2);
+    return 0;
+}
+*/
+
+//? Not equal to.
+/*
+  #include <stdio.h>
+    int main() {
+    int result1 = (5 != 3);
+    int result2 = (5 != 5);
+    printf("5 != 3: %d\n", result1);
+    printf("5 != 5: %d\n", result2);
+    return 0;
+}  
+*/
+//? > Greater than.
+/*
+    #include <stdio.h>
+    int main() {
+    int result1 = (10 > 5);
+    int result2 = (5 > 10);
+    int result3 = (5 > 5);
+    printf("10 > 5: %d\n", result1);
+    printf("5 > 10: %d\n", result2);
+    printf("5 > 5: %d\n", result3);
+    return 0;
+    }
+*/
+//? < Less than.
+//? >= Greater than or equal.
+//? <= Less than or equal.
 
 
 
 //! Logical Operators.
+
 //! Bitwise Operators.
 //! Bit Operators.
