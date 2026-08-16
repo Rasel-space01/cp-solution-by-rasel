@@ -47,7 +47,7 @@ return 0;
 
 */
 
-//? Uses of Modulus operator
+//! Uses of Modulus operator
 
 //? Even or odd find
 /*
@@ -161,6 +161,18 @@ int main() {
 
 
 //! Assignment Operators.
+/*
+#include <stdio.h>
+int main() {
+int a = 10;// = assign kora
+printf("a = %d\n", a);
+return 0;
+}
+*/
+
+
+//!Compound Assignment Operators.
+
 //? Addition assignment
 /*
 #include <stdio.h>
@@ -228,17 +240,77 @@ int main() {
 }
 */
 //?Modulus Assignment.
+/*
 #include<stdio.h>
 int main(){
     int num=17;
     printf("The number is: %d\n",num);
-    num %=5;
+    num %=5; //17 % 5 = 2 (17 ক 5 দিয়ে ভাগ করলে ভাগশেষ ২)।
     printf("The final result is: %d",num);
     return 0;
 }
+*/
+//? Increment Operator(++).
+/*
+#include <stdio.h>
 
+int main() {
+    int counter = 0;
+    printf("Initial: %d\n", counter);
+
+    counter = counter + 1;
+    printf("After 1st increment: %d\n", counter);
+
+    counter = counter + 1;
+    printf("After 2nd increment: %d\n", counter);
+
+    counter = counter + 1;
+    printf("After 3rd increment: %d\n", counter);
+
+    return 0;
+}
  
+*/
+
+//counter = counter + 1;  // লম্বা উপায়.
+//counter += 1;  // Compound Assignment(shortcut).
+//counter++;   // Increment Operator (সবিচেয় ছোট!).
+
+
+//? Decrement Operator(--).
+
+#include <stdio.h>
+
+int main() {
+    int countdown = 5;
+
+    printf("Countdown: %d\n", countdown);
+
+    countdown--;
+    printf("Countdown: %d\n", countdown);
+
+    countdown--;
+    printf("Countdown: %d\n", countdown);
+
+    countdown--;
+    printf("Countdown: %d\n", countdown);
+
+    countdown--;
+    printf("Countdown: %d\n", countdown);
+
+    countdown--;
+    printf("Countdown: %d\n", countdown);
+
+    printf("\nBlast off! 🚀\n");
+
+    return 0;
+}
+
+
 //! Relational Operators.
+
+
+
 //! Logical Operators.
 //! Bitwise Operators.
 //! Bit Operators.
