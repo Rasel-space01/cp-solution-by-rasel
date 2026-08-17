@@ -387,10 +387,30 @@ int main()
 //? < Less than.
 //? >= Greater than or equal.
 //? <= Less than or equal.
-
+//? Bool Data type ( true or false).
 
 
 //! Logical Operators.
+//? && (AND) ,, || (OR) ,, !(NOT)
+//? && দুইটা condition ই true হেল result true হয়। 
+//? || যেকোনো একটা condition true হলেই result true হয়।
+//? !(NOT)  true কে false, false কে true বানায় ।
+//? Example : Student Pass check.
+//? Problem: Theory  তে 33+ এবং (Practical এ 33+ অথবা Viva তে 33+)
+
+#include <stdio.h>
+int main() {
+    int theory = 45;
+    int practical = 25;
+    int viva = 40;
+    int passed = (theory >= 33) && ((practical >= 33) || (viva >= 33));
+    printf("Theory: %d\n", theory);
+    printf("Practical: %d\n", practical);
+    printf("Viva: %d\n", viva);
+    printf("Passed: %d\n", passed);
+    return 0;
+}
 
 //! Bitwise Operators.
+
 //! Bit Operators.
