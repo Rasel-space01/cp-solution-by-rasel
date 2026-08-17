@@ -398,7 +398,8 @@ int main()
 //? Example : Student Pass check.
 //? Problem: Theory  তে 33+ এবং (Practical এ 33+ অথবা Viva তে 33+)
 
-#include <stdio.h>
+/*
+    #include <stdio.h>
 int main() {
     int theory = 45;
     int practical = 25;
@@ -411,6 +412,22 @@ int main() {
     return 0;
 }
 
-//! Bitwise Operators.
+*/
 
-//! Bit Operators.
+
+//! Bitwise Operators.
+ //? & (Bitwise AND)
+ //? |  (Bitwise OR)
+ //? ^  (XOR)
+ //? ~  (NOT)
+ //? << (lEFT SHIFT)
+ //? >> (RIGHT SHIFT)
+
+
+//! Bit Operators/ Shifting.
+//? left shift operator(<<)
+
+//? Right shift (>>).
+
+
+
