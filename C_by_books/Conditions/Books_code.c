@@ -42,8 +42,8 @@ int main() {
 }
 */
 //? Grade system .
-
-#include <stdio.h>
+/*
+    #include <stdio.h>
 
 int main() {
     int marks = 75;
@@ -66,6 +66,24 @@ int main() {
 
     return 0;
 }
+*/
+
+//? Nested if-(if er bitor if).
+
+ #include <stdio.h>
+ #include <stdbool.h>
+ int main(){
+    if(true){
+        printf("Outer if executed\n");
+        if(true){
+            printf(" Inner if executed\n");
+        }
+
+    }
+    return 0;
+ }
+
+
 
 
 
