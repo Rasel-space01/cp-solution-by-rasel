@@ -69,8 +69,8 @@ int main() {
 */
 
 //? Nested if-(if er bitor if).
-
- #include <stdio.h>
+ /*
+  #include <stdio.h>
  #include <stdbool.h>
  int main(){
     if(true){
@@ -84,6 +84,145 @@ int main() {
  }
 
 
+ */
+//? Discount System.
+/*
+    #include <stdio.h>
+#include <stdbool.h>
+int main() {
+    int totalBill = 1500;
+    bool isMember = true;
+    if (totalBill > 1000)
+     {
+        printf("Bill is above 1000\n");
+    
+      if (isMember) 
+      {
+        printf("You get 20%% discount!\n");
+      } 
+    else {
+       printf("You get 10%% discount.\n");
+         }
+      }
+    else
+     {
+    printf("No discount for bills under 1000.\n");
+     }
+    return 0;
+
+}
+
+*/
+
+//! Switch case:
+//এত else if লিখতে হচ্ছে!
+//এরকম situation এর জন্য আছে switch-case — অনেক clean এবং readable!
+
+
+//Syntax:
+/*
+    switch (expression) {
+    case value1:
+        // value1 হলে এটা চলবে
+        break;
+
+    case value2:
+        // value2 হলে এটা চলবে
+        break;
+
+    case value3:
+        // value3 হলে এটা চলবে
+        break;
+
+    default:
+        // কোনো case match না করলে এটা চলবে
+}
+*/
+
+//? Example:
+/*
+    #include <stdio.h>
+
+int main() {
+    int choice = 2;
+
+    switch (choice) {
+        case 1:
+            printf("You selected ONE\n");
+            break;
+
+        case 2:
+            printf("You selected TWO\n");
+            break;
+
+        case 3:
+            printf("You selected THREE\n");
+            break;
+
+        default:
+            printf("Invalid choice\n");
+    }
+
+    return 0;
+}
+
+*/
+
+//? Practice problem (Simple Calculator).
+ /* 
+ #include <stdio.h>
+
+int main() {
+    float num1, num2, result;
+    char op;
+
+    printf("Enter first number: ");
+    scanf("%f", &num1);
+
+    printf("Enter operator (+, -, *, /): ");
+    scanf(" %c", &op);
+
+    printf("Enter second number: ");
+    scanf("%f", &num2);
+
+    switch (op) {
+        case '+':
+            result = num1 + num2;
+            printf("%.2f + %.2f = %.2f\n", num1, num2, result);
+            break;
+
+        case '-':
+            result = num1 - num2;
+            printf("%.2f - %.2f = %.2f\n", num1, num2, result);
+            break;
+
+        case '*':
+            result = num1 * num2;
+            printf("%.2f * %.2f = %.2f\n", num1, num2, result);
+            break;
+
+        case '/':
+            if (num2 == 0) {
+                printf("Error: Division by zero!\n");
+            } else {
+                result = num1 / num2;
+                printf("%.2f / %.2f = %.2f\n", num1, num2, result);
+            }
+            break;
+
+        default:
+            printf("Invalid operator!\n");
+    }
+
+    return 0;
+}
+
+ */
+
+
+
+
+ 
 
 
 
