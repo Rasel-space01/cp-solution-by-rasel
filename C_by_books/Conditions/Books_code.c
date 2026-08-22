@@ -261,7 +261,8 @@ int main() {
 //? Infinite Loop (যে লুপ কখন ও শেষ হয় না).
 
 //? Break Statement.
-#include <stdio.h>
+/*
+    #include <stdio.h>
 
 int main() {
     int i = 1;
@@ -282,6 +283,39 @@ int main() {
     return 0;
 }
 
+*/
+
+//? Break example.
+
+#include <stdio.h>
+
+int main() {
+    int password = 1234;
+    int input;
+    int attempts = 0;
+
+    printf("=== Login System ===\n\n");
+
+    while (attempts < 3) {
+        printf("Enter password: ");
+        scanf("%d", &input);
+
+        attempts++;
+
+        if (input == password) {
+            printf("\n✓ Access granted!\n");
+            break;
+        } else {
+            printf("✗ Wrong password! %d attempt(s) left.\n\n", 3 - attempts);
+        }
+    }
+
+    if (attempts == 3 && input != password) {
+        printf("Account locked!\n");
+    }
+
+    return 0;
+}
 
 
  
