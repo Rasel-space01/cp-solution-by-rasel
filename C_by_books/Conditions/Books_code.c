@@ -375,8 +375,8 @@ int main() {
 
 */
 //? Nested for loop ( loop vitor loop)
-
-#include <stdio.h>
+/*
+    #include <stdio.h>
 
 int main() {
     int rows = 3;
@@ -391,7 +391,24 @@ int main() {
 
     return 0;
 }
+*/
+//?for Loop এ break এবেং continue.
 
+#include <stdio.h>
+
+int main() {
+    for (int i = 1; i <= 10; i++) {
+        if (i == 6) {
+            printf("\nFound 6! Stopping...\n");
+            break;
+        }
+        printf("%d ", i);
+    }
+
+    return 0;
+}
+
+ 
  
 
 
