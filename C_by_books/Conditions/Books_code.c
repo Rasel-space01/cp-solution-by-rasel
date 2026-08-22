@@ -321,9 +321,6 @@ int main() {
 //? continue statement .
 
 /*
-
-*/
- 
 #include <stdio.h>
 
 int main() {
@@ -345,6 +342,34 @@ int main() {
 
     return 0;
 }
+
+*/
+
+//! For loop
+/*
+    for (initialization; condition; update) {
+    // code
+      }
+*/
+//? Example: 1 to N unil summation.
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter N: ");
+    scanf("%d", &n);
+
+    int sum = 0;
+
+    for (int i = 1; i <= n; i++) {
+        sum += i;  // sum = sum + i এর shortcut (পর্ব ৯ এ শিখেছি)
+    }
+
+    printf("Sum of 1 to %d = %d\n", n, sum);
+
+    return 0;
+}
+ 
 
 
 
