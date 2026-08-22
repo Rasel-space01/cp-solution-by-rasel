@@ -286,8 +286,8 @@ int main() {
 */
 
 //? Break example.
-
-#include <stdio.h>
+ /*
+    #include <stdio.h>
 
 int main() {
     int password = 1234;
@@ -317,9 +317,34 @@ int main() {
     return 0;
 }
 
+ */
+//? continue statement .
 
+/*
+
+*/
  
+#include <stdio.h>
 
+int main() {
+    int i = 0;
+
+    printf("Odd numbers from 1 to 10:\n");
+
+    while (i < 10) {
+        i++;
+
+        if (i % 2 == 0) {
+            continue;  // Even হলে skip করো
+        }
+
+        printf("%d ", i);
+    }
+
+    printf("\n");
+
+    return 0;
+}
 
 
 
