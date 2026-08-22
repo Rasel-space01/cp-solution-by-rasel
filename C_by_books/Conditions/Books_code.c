@@ -352,7 +352,8 @@ int main() {
       }
 */
 //? Example: 1 to N unil summation.
-#include <stdio.h>
+/*
+    #include <stdio.h>
 
 int main() {
     int n;
@@ -372,6 +373,24 @@ int main() {
  
 
 
+*/
+//? Nested for loop ( loop vitor loop)
+
+#include <stdio.h>
+
+int main() {
+    int rows = 3;
+    int cols = 5;
+
+    for (int i = 1; i <= rows; i++) {       // বাইরের loop: row
+        for (int j = 1; j <= cols; j++) {   // ভেতরের loop: column
+            printf("*");
+        }
+        printf("\n"); // প্রতি row এর পর new line
+    }
+
+    return 0;
+}
 
  
 
