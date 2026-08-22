@@ -219,6 +219,78 @@ int main() {
 
  */
 
+ //! Loops:
+
+ //? while Loop.
+ /*
+    #include<stdio.h>
+ int main()
+ {
+    int count =0;
+    while(count<100){
+        printf("Rafiqe\n");
+        count++;
+    }
+ }
+ */
+//? Practice example:
+//1 To N until summation.
+/*
+    #include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter N: ");
+    scanf("%d", &n);
+
+    int sum = 0;        // যোগফল শুরুতে 0
+    int i = 1;          // 1 থেকে যোগ শুরু করবো
+
+    while (i <= n) {    // N পর্যন্ত যোগ করবো
+        sum = sum + i;  // যোগ করো
+        i++;            // পরের number এ যাও
+    }
+
+    printf("Sum = %d\n", sum);
+
+    return 0;
+}
+
+*/
+
+//? Infinite Loop (যে লুপ কখন ও শেষ হয় না).
+
+//? Break Statement.
+#include <stdio.h>
+
+int main() {
+    int i = 1;
+
+    while (i <= 100) {
+        printf("%d ", i);
+
+        if (i == 5) {
+            printf("\n\nFound 5! Stopping...\n");
+            break;  // Loop থেকে বের!
+        }
+
+        i++;
+    }
+
+    printf("Loop ended.\n");
+
+    return 0;
+}
+
+
+
+ 
+
+
+
+
+ 
+
 
 
 
